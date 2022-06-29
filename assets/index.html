@@ -2,58 +2,68 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width-device-width, initial-scale=1.0">
-	<titlte> Joguinho da velha </title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Revista</title>
+	<style>
+		#fundo {
+			background-color: rgb(218, 223, 246);
+			text-align: center;
+			font-size: 18px;
+		}
 
-<body>
-	<div class="container">
+		#redes {
 
-		<header>
-			<div class="painel-opcoes-esconder">
-
-				<div class="painel-group">
-					<span id="painel-usuario-x-nome"></span>
-					<span class="pontos">Pontos: <strong id="painel-usuario-o-pontos">0</strong><span>
-					</div>
-
-					<div class="proximo-jogar">
-						<em><span>Próximo a jogar:</span> <strong id="proximo-jogador"></strong></em>
-					</div>
-				
-					</div>
+			background-color: rgb(218, 223, 246);
+			border: 2px solid;
+		
+		}
+		table {
 			
-					<div class="opcoes-jogo">
+		
+			padding-top: 8px;
+			text-align: center;
+			font-size: 15px;
+		}
+		body {
+			text-align: center;
+			background-color: rgb(242, 242, 73);
+		}
+	</style>
+</head>
+<body>
+	<div id="fundo">
+		<h1> A mais linda de todas </h1>
+		<H2><em>Emanoelli Brunetti</em></H2>	
+		<img src="https://scontent.fbfh8-2.fna.fbcdn.net/v/t39.30808-6/275885702_4943534355731122_8471795060471643241_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGDooykubJBLwDccajdcn6er1KFn7Jl1RavUoWfsmXVFp5VPgNiAhUBGFVmppO-cL-lvplLZtms15PSpgwPbStT&_nc_ohc=H7aswg2CGWIAX8YJ1O5&_nc_ht=scontent.fbfh8-2.fna&oh=00_AT-sPzLYVnaea-RL1AaF4pkSDZoPlbYOcwPQQmxHsl2H-A&oe=62C09307" alt="manu" width="300" height="350">
 
+		<p style="font-size:16px; font-family: 'Times New Roman';"><em>"Emanuelle</em>: Significa <strong>“Deus conosco” ou “Deus está conosco.”</strong> <br>
+			Emanuelle tem origem no nome hebraico Immanuel (Emanuel, em português) <br>
+			e é a junção dos elementos immánu, que significa "conosco" e El,
+		    que significa "Deus",<Br> resultando em “Deus conosco” ou “Deus está conosco”."
+			<br>Fonte: <a href="https://www.google.com/search?q=significado+do+nome+Emanoelli&sxsrf=ALiCzsb-eZJZAjFEeA9DtXqwPCikodbENw%3A1656471440644&ei=kL-7Yuj8JuDN5OUPwPGqgAw&ved=0ahUKEwjohLP-1NH4AhXgJrkGHcC4CsAQ4dUDCA4&uact=5&oq=significado+do+nome+Emanoelli&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECAAQDTIECAAQDTIECAAQDTIICAAQHhAWEAoyCAgAEB4QFhAKMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyCggAEB4QDxAWEAo6BwgAEEcQsAM6BAgjECc6BwgjEOoCECc6BwguEOoCECc6DQguEMcBENEDEOoCECc6CgguEMcBENEDECc6CwguEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoECAAQQzoICAAQsQMQgwE6EQguEIAEELEDEIMBEMcBEKMCOg4ILhCABBCxAxCDARDUAjoRCC4QgAQQsQMQgwEQxwEQrwE6CwgAEIAEELEDEIMBOggIABCABBCxAzoLCAAQsQMQgwEQyQM6BQgAEIAEOgoIABCxAxCDARBDOgQIABAKSgQIQRgASgQIRhgAUKM7WL3mAWC98gFoAnABeASAAdQGiAH3NJIBCjAuMjkuMS42LTSYAQCgAQGwAQrIAQjAAQE&sclient=gws-wiz-serp" target="_blank">Google.com</a></p>
+			</div>
+	</div>
+	<div id="redes">
+		<table>
+			<tr>
+			  <th>Instagram</th>
+			  <th>Facebook</th>
+			  <th>Contact</th>
+			</tr>
+			<tr>
+			  <td><a href="https://www.instagram.com/manu_brune/" target="_blank" alt="manu">Emanoelli Brunetti</a></td>
+			  <td><a href="https://www.facebook.com/emanoelli.brunetti" target="_blank" alt="manu">Manu</a></td>
+			  <td> 41 9936-5958</td>
+			  <td></td>
+			</tr>
+			<tr>
+			  <td></td>
+			  <td></td>
 
-	     				<div class="header-group">
-						<label for="usuario-o">Usuario</label>
-						<imput autocomplete="off" id="usuario-o" type="text">
-					</div> 
-
-					<button id="btn-jogar">Jogar</button>
-
-				 </div>
-	
-		</header>
-
-		<div class="jogo-velha-1"></div>
-		<div class="jogo-velha-2"></div>
-		<div class="jogo-velha-3"></div>
-		<div class="jogo-velha-4"></div>
-		<div class="jogo-velha-5"></div>
-		<div class="jogo-velha-6"></div>
-		<div class="jogo-velha-7"></div>
-		<div class="jogo-velha-8"></div>
-		<div class="jogo-velha-9"></div>
-
-		<footer>
-			<em>
-				<h4> Desenvolvido por Weberson Rodrigues.</h4>
-			<em>
-		</footer>
-	     </div>
-
-	    <script src="./js/velha.js"></script>
-	</body>	
-	</html>
-
+			</tr>
+		  </table>
+		
+	</div>
+</body>
+</html>
